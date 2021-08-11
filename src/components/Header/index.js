@@ -25,6 +25,14 @@ function Header() {
     <li className="mx-2"> <a href="#about">
       About
       </a>
+      <h1 id="about">About Me</h1>
+            <div>
+                <p>
+                    My name is Bryant Uwagbale. I am Web Developer who prides himself on his 
+                    ability to continously evolve in any high-intensity enviornment. 
+                </p>
+            </div>
+
         
       </li>
       <li className="mx-2"> <a href="#contact">
