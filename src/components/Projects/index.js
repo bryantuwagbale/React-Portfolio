@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
-function Projects () {
+// function Projects () {
     
-}
+// }
 
-export default Projects;
+// export default Projects;
