@@ -1,57 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
-function Nav() {
-
-    // const categories = [
-    //     {
-    //       name: "About", description:"about me section",
-    //     },
-    //     { name: "Projects", description: "the projects I've completed" },
-    //     { name: "Contact", description: "contact section" 
-        
-    //     },
-        
-    //   ];
-
-    //   function categorySelected() {
-    //     console.log("hello")
-    //   }
-
-    return (
-        <header>
-            
-    <nav>
-    <ul className="flex-row">
-    <li className="mx-2"> <a href="#about">
-      About
-      </a>
-        
-      </li>
-      <li className="mx-2"> <a href="#contact">
-      Contact
-      </a>
-      </li>
-      <li className="mx-2"> <a href="#projects">
-      Projects
-      </a>
-      </li>
-      <li className="mx-2"> <a href="#resume">
-      Resume
-      </a>
-      </li>
-      {/* {categories.map((category) => (
-        <li
-          className="mx-1"
-          key={category.name}
-        >
-          <span onClick={categorySelected} >
-            {category.name}
-          </span>
-        </li>
-      ))} */}
+function NavBar () {
+  return(
+    <ul>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/about'>About</Link></li>
+      <li><Link to='/projects'>Projects</Link></li>
+      <li><Link to='/contact'>Contact</Link></li>
     </ul>
-  </nav>
-        </header>
-    );
+  )
 }
-export default Nav;
+
+
+export default NavBar;
