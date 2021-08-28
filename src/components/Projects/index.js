@@ -5,7 +5,8 @@ function Projects () {
         <div>
             <h1>My Projects</h1>
             <a href="https://shanemcf.github.io/FitGinize/">Figinize</a><br />
-            <a href="https://intense-temple-14332.herokuapp.com/">Miso Hungry</a>
+            <a href="https://intense-temple-14332.herokuapp.com/">Miso Hungry</a><br />
+            <a href="https://cloudtronics.herokuapp.com/">Cloudtronics</a>
         </div>
     )
 }
